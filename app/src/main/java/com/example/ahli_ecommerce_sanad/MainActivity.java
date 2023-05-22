@@ -1,5 +1,6 @@
 package com.example.ahli_ecommerce_sanad;
 
+
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -17,7 +18,7 @@ import com.example.ahli_ecommerce_sanad.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
-
+/*
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
@@ -73,5 +74,20 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+}*/
+
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+
     }
 }
